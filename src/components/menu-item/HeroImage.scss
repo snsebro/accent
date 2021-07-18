@@ -1,0 +1,30 @@
+@use '../../utilities/variables' as colors;
+
+.hero-container {
+  margin: auto auto;
+  border: 1px solid black;
+  width: 90%;
+  display: flex;
+  height: calc(100vh - 45px);
+  justify-content: center;
+  align-items: flex-end;
+
+
+  .hero-image-1 {
+    background-color: colors.$tote;
+  }
+
+  .hero-image-2 {
+    background-color:colors.$coal;
+
+  }
+
+  .hero-image-1, .hero-image-2 {
+    border: 1px solid black;
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-size: auto; 
+    background-repeat: no-repeat;
+  }
+}
