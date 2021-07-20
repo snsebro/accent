@@ -1,0 +1,30 @@
+.CTA-container {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  margin-bottom: 90px;
+  align-items: center;
+
+  h1 {
+    color: white;
+    margin: 0px 0px 35px 0px;
+  } 
+  
+  p {
+    color: white;
+    margin:0px 0px 35px 0px;
+  }
+
+  .shop-button {
+    background-color: white;
+    outline: none;
+    border: none;
+    height: 45px;
+    width: 232px;
+    margin-bottom: 17px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
