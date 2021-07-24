@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <div className='nav-bar'>
       <div className='nav-bar-left'>
-        <NavLink to ='/' id='logo' className='nav-item'>ACCCENT</NavLink>
+        <NavLink to ='/' id='logo' className='nav-item'>ACCENT</NavLink>
         <NavLink to ='/' className='nav-item'>New Arrivals</NavLink>
         <NavLink to ='/' className='nav-item'>Women</NavLink>
         <NavLink to ='/' className='nav-item'>Men</NavLink>

@@ -2,26 +2,29 @@
   display: flex;
   position: absolute;
   flex-direction: column;
-  margin-bottom: 90px;
+  margin-bottom: 5%;
   align-items: center;
 
-  h1 {
+  h1, p {
     color: white;
-    margin: 0px 0px 35px 0px;
+    margin-bottom: 3.5rem;
+  } 
+
+  h1 {
+    font-size: 4rem;
   } 
   
   p {
-    color: white;
-    margin:0px 0px 35px 0px;
+    font-size: 1.5rem;
   }
 
   .shop-button {
     background-color: white;
     outline: none;
     border: none;
-    height: 45px;
-    width: 232px;
-    margin-bottom: 17px;
+    height: 4.5rem;
+    width: 23.2rem;
+    margin-bottom: 1.7rem;
 
     &:hover {
       cursor: pointer;

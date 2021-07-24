@@ -6,4 +6,35 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+
+  .nav-bar-left, .nav-bar-right {
+    border: 1px solid black;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  .nav-bar-left {
+    display: flex;
+    
+    #logo {
+      font-size: 1.6rem;
+      font-weight: 500;
+    }
+
+    .nav-item {
+      margin-right: 2.5rem;
+    }
+
+  }
+
+  .nav-bar-right {
+    .nav-item {
+      margin-left: 2.5rem;
+    }
+  }
 }
