@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import HomepagePreviewItem from '../homepage-preview-item/HomepagePreviewItem'
 import './HomepagePreview.scss'
 
@@ -13,11 +14,13 @@ const HomepagePreview = () => {
         <HomepagePreviewItem />
         <HomepagePreviewItem />
       </div>
-      <div>
+      <div className="explore-section">
         <h3>Explore Accent</h3>
-        <button>Women</button>
-        <button>Men</button>
-        <button>Edit</button>
+        <div className="preview-links">
+          <Link to="/" className="preview-button">Women</Link>
+          <Link to="/" className="preview-button" id="middle-preview-button">Men</Link>
+          <Link to="/" className="preview-button">Edit</Link>
+        </div>
         <p>VISIT US IN PERSON. <a href="/">STORE LOCATOR</a></p>
       </div>
     </div>
