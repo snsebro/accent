@@ -5,23 +5,23 @@ import './HomepagePreview.scss'
 
 const HomepagePreview = () => {
   return (
-    <div className="homepage-preview">
-      <h3 className="homepage-preview-message">
+    <div className='homepage-preview'>
+      <h3 className='homepage-preview-message'>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
       </h3>
-      <div className="homepage-preview-list">
+      <div className='homepage-preview-list'>
         <HomepagePreviewItem />
         <HomepagePreviewItem />
         <HomepagePreviewItem />
       </div>
-      <div className="explore-section">
+      <div className='explore-section'>
         <h3>Explore Accent</h3>
-        <div className="preview-links">
-          <Link to="/" className="preview-button">Women</Link>
-          <Link to="/" className="preview-button" id="middle-preview-button">Men</Link>
-          <Link to="/" className="preview-button">Edit</Link>
+        <div className='preview-links'>
+          <Link to='/shop' className='preview-button'>Women</Link>
+          <Link to='/shop' className='preview-button' id='middle-preview-button'>Men</Link>
+          <Link to='/shop' className='preview-button'>Edit</Link>
         </div>
-        <p>VISIT US IN PERSON. <a href="/">STORE LOCATOR</a></p>
+        <p>VISIT US IN PERSON. <a href='/'>STORE LOCATOR</a></p>
       </div>
     </div>
   )
