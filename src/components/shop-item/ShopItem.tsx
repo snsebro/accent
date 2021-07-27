@@ -5,8 +5,8 @@ const ShopItem = () => {
   return (
     <div className='shop-item'>
       <div className='shop-item-image'>PRODUCT IMAGE</div>
-      <p>PRODUCT NAME</p>
-      <p>PRICE</p>
+      <a href='shop/1' className='item-name'>PRODUCT NAME</a>
+      <p className='item-price'>PRICE</p>
     </div>
   )
 }

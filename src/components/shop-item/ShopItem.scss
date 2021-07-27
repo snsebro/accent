@@ -5,5 +5,19 @@
   margin-top: 4.5%;
 
   .shop-item-image {
+    width: 100%;
+    height: 85%;
+    background-color: #BBB1A1;
+  }
+  
+  .item-name, .item-price {
+    margin: 1.2rem 0;
+  }
+  .item-name {
+    font-weight: 700;
+  }
+
+  .item-price {
+
   }
 }

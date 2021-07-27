@@ -4,6 +4,7 @@ import PromoBanner from './components/promo-banner/PromoBanner'
 import NavBar from './components/nav-bar/NavBar'
 import Shop from './pages/shop/Shop';
 import './App.css';
+import ProductDetail from './pages/product-detail/ProductDetail';
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <NavBar />
       <Switch>
         <Route path='/' exact component={Homepage} />
-        <Route path='/shop' component={Shop} />
+        <Route path='/shop' exact component={Shop} />
+        <Route path='/shop/:id' component={ProductDetail}/>
       </Switch>
     </div>
   );
