@@ -1,5 +1,8 @@
+@use '../../utilities/variables' as button;
+
 .temp-container {
   width: 90%;
+  height: calc(100vh - 11.5rem);
   margin: auto auto;
   display: flex;
 
@@ -39,7 +42,52 @@
     }
   }
 
-  .product-description {
+  .product-description-container {
     width: 50%;
+    height: 44.7rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+
+    .product-description-elements {
+      display: flex;
+      flex-direction: column;
+      margin-left: 15rem;
+
+      h3 {
+        font-size: 2rem;
+        margin: 0;
+      }
+  
+      p {
+        font-size: 2rem;
+      }
+  
+      .material-select {
+        height: 4.5rem;
+      }
+  
+      .add-to-bag {
+        background-color: button.$button-secondary-background;
+        color: button.$button-text;
+        outline: button.$button-outline;
+        border: button.$button-border;
+        height: button.$button-height;
+        width: button.$button-width;
+        margin-bottom: button.$button-margin-bottom;
+      }
+
+      .product-description-text {
+        font-size: 1.2rem;
+        height: 19rem;
+        overflow: scroll;
+        scrollbar-width: 1rem;
+      }
+  
+      .product-description-text, .add-to-bag, .material-select, .material-select-label  {
+        width: 34.5rem;
+        margin-bottom: 2rem;
+      }
+    }
   }
 }
