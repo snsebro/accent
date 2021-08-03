@@ -25,12 +25,12 @@ const Login = () => {
     signUpPassword: '',
     })
 
-  const handleLoginInput = (e: any) => {
+  const handleLoginInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target
     setLoginInfo((prevState: LoginInfo) => ({ ...prevState, [name]: value }))
   }
 
-  const handleSignUpInput = (e: any) => {
+  const handleSignUpInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target
     setSignUpInfo((prevState: SignUpInfo) => ({ ...prevState, [name]: value }))
   }
