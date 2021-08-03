@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { NavLink }  from 'react-router-dom'
 import './NavBar.scss'
 
@@ -13,7 +13,7 @@ const NavBar = () => {
       </div>
       <div className='nav-bar-right'>
         <NavLink to ='/' className='nav-item'>EDIT</NavLink>
-        <NavLink to ='/' className='nav-item'>SIGN IN</NavLink>
+        <NavLink to ='/login' className='nav-item'>SIGN IN</NavLink>
         <NavLink to ='/' className='nav-item'>HELP</NavLink>
         <NavLink to ='/' className='nav-item'>CART</NavLink>
       </div>
